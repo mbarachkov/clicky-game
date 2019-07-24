@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ChihuahuaImage from './components/GameImage'
+import BobaImage from './components/GameImage'
 import images from './images.json'
 
 import './App.css'
@@ -8,7 +8,7 @@ import './App.css'
 // pick a random number up to but not including max
 const pickRandom = max => Math.floor(Math.random() * max)
 
-// pick out a random pup
+// pick out a random boba
 const randomImageId = () => images[pickRandom(images.length)].id
 
 // track
@@ -38,12 +38,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>Chihuahua Clicker</h1>
+        <h1>Boba Face</h1>
+        <h2>Click on an image to earn points, but don't click on any more than once!</h2>
         <div>Score: {this.state.score}</div>
         <div>Clicks: {this.state.clicks}</div>
         {/* reference images in the public folder */}
         {images.map(image => (
-          <ChihuahuaImage
+          <BobaImage
             key={image.id}
             handleImageClick={() => this.handleImageClick(image.id)}
             url={process.env.PUBLIC_URL + '/img/' + image.fileName}

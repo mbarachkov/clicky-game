@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ChihuahuaImage(props) {
+function BobaImage(props) {
   return (
-    <img src={props.url} alt="chihuahua" onClick={props.handleImageClick} />
+    <img src={props.url} alt="fett" onClick={props.handleImageClick} />
   )
 }
 
-export default ChihuahuaImage
+export default BobaImage

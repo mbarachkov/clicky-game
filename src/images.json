@@ -1,9 +1,15 @@
 
 [
-    { "fileName": "brown-chihuahua.jpg", "id": "a" },
-    { "fileName": "chubby-chihuahua.jpg", "id": "b" },
-    { "fileName": "grumpy-chihuahua.jpg", "id": "c" },
-    { "fileName": "lady-chihuahua.jpg", "id": "d" },
-    { "fileName": "stern-chihuahua.jpg", "id": "e" },
-    { "fileName": "white-chihuahua.jpg", "id": "f" }
+    { "fileName": "boba1.png", "id": "a" },
+    { "fileName": "boba2.png", "id": "b" },
+    { "fileName": "boba3.png", "id": "c" },
+    { "fileName": "boba4.png", "id": "d" },
+    { "fileName": "boba5.png", "id": "e" },
+    { "fileName": "boba6.png", "id": "f" },
+    { "fileName": "boba7.png", "id": "g" },
+    { "fileName": "boba8.png", "id": "h" },
+    { "fileName": "boba9.png", "id": "i" },
+    { "fileName": "boba10.png", "id": "j" },
+    { "fileName": "boba11.png", "id": "k" },
+    { "fileName": "boba12.png", "id": "l" }
   ]
