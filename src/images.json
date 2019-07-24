@@ -1,0 +1,9 @@
+
+[
+    { "fileName": "brown-chihuahua.jpg", "id": "a" },
+    { "fileName": "chubby-chihuahua.jpg", "id": "b" },
+    { "fileName": "grumpy-chihuahua.jpg", "id": "c" },
+    { "fileName": "lady-chihuahua.jpg", "id": "d" },
+    { "fileName": "stern-chihuahua.jpg", "id": "e" },
+    { "fileName": "white-chihuahua.jpg", "id": "f" }
+  ]
