@@ -1,35 +1,25 @@
 import React from 'react'
 
-import BobaImage from './components/GameImage'
+import BobaImage from './components/BobaImage'
 import images from './images.json'
 
 import './App.css'
 
-// pick a random number up to but not including max
 const pickRandom = max => Math.floor(Math.random() * max)
 
-// pick out a random boba
 const randomImageId = () => images[pickRandom(images.length)].id
-
-// track
 class App extends React.Component {
-  // define initial state values
   state = {
     clicks: 0,
     score: 0,
-    currentPupId: randomImageId()
+    currentBobaId: randomImageId()
   }
 
-  // when image is clicked
   handleImageClick = id => {
-    // update click count in state
     const newState = { clicks: this.state.clicks + 1 }
-
-    // did the user click the current pup
-    if (id === this.state.currentPupId) {
-      // increase score
+    if (id === this.state.currentBobaId) {
       newState.score = this.state.score + 1
-      newState.currentPupId = randomImageId()
+      newState.currentBobaId = randomImageId()
     }
 
     this.setState(newState)
